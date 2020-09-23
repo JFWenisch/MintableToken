@@ -1,6 +1,8 @@
 # MintableToken
 
 ## Prerequesites
+To be able to download the required packages you need to have node.js installed. If you haven't installed it already go to https://nodejs.org/en/download/ to download the newest version for your os.
+
 Init npm if it's not already initialized
 ```
 npm init -y
