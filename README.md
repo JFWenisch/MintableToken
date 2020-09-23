@@ -25,6 +25,14 @@ Solidity v0.5.16 (solc-js)
 Node v10.16.3
 Web3.js v1.2.1
 ```
+To resolve the openzeppelin dependencies we'll need to install the dependencies using
+```
+npm install @openzeppelin/contracts@2.5.1
+```
+As we will use truffle hardware wallet to deploy to public networks we will also need to install this dependency using
+```
+npm install @truffle/hdwallet-provider
+```
 
 For the deployment we will use then openzeppelin-cli. To install it run
 ```
